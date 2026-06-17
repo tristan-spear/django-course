@@ -34,9 +34,10 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
+    #'django.contrib.sessions', # Sessions is legacy, we do not use it in this project 
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'playgood', # Our app 
 ]
 
 MIDDLEWARE = [
